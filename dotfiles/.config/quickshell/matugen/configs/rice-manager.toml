@@ -1,0 +1,40 @@
+[config]
+
+# Unified Matugen configuration for rice-manager
+# All templates reference ~/.config/quickshell/matugen/templates/
+
+[templates.sway_rice_colors]
+input_path = '~/.config/quickshell/matugen/templates/sway-colors.conf'
+output_path = '~/.config/sway/rice-colors.conf'
+
+[templates.ghostty_rice_theme]
+input_path = '~/.config/quickshell/matugen/templates/ghostty-colors.conf'
+output_path = '~/.config/ghostty/themes/rice-generated'
+
+[templates.rofi_rice_theme]
+input_path = '~/.config/quickshell/matugen/templates/rofi-rice.rasi'
+output_path = '~/.config/rofi/rice-generated.rasi'
+
+[templates.mako_theme]
+input_path = '~/.config/quickshell/matugen/templates/mako.conf'
+output_path = '~/.config/mako/config'
+
+[templates.rice_manager_env]
+input_path = '~/.config/quickshell/matugen/templates/rice-manager.env'
+output_path = '~/.config/rice-manager/rice-colors.env'
+
+[templates.onestepback_gtk3]
+input_path = '~/.config/quickshell/matugen/templates/onestepback-colors.css'
+output_path = '~/.config/gtk-3.0/onestepback-colors.css'
+
+[templates.onestepback_gtk4]
+input_path = '~/.config/quickshell/matugen/templates/onestepback-colors.css'
+output_path = '~/.config/gtk-4.0/onestepback-colors.css'
+
+[templates.onestepback_wm2_gtk3]
+input_path = '~/.config/quickshell/matugen/templates/onestepback-wm2-colors.css'
+output_path = '~/.config/gtk-3.0/onestepback-wm2-colors.css'
+
+[templates.onestepback_wm2_gtk4]
+input_path = '~/.config/quickshell/matugen/templates/onestepback-wm2-colors.css'
+output_path = '~/.config/gtk-4.0/onestepback-wm2-colors.css'

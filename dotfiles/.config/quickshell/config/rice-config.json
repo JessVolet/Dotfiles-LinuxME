@@ -1,0 +1,45 @@
+{
+  "activeTheme": "cherry",
+  "activeMode": "light",
+  "wallpaper": {
+    "type": "theme",
+    "value": "cherry"
+  },
+  "themes": {
+    "retro-gruv-light": {
+      "label": "Gruvbox Light",
+      "seed": "#076678",
+      "enabled": true
+    },
+    "retro-gruv-dark": {
+      "label": "Gruvbox Dark",
+      "seed": "#83a598",
+      "enabled": true
+    },
+    "cyber-neon": {
+      "label": "Cyber Neon",
+      "seed": "#00ff41",
+      "enabled": true
+    },
+    "yorha": {
+      "label": "YoRHa",
+      "seed": "#626335",
+      "enabled": true
+    },
+    "cherry": {
+      "label": "Cherry",
+      "seed": "#c950bb",
+      "enabled": true
+    },
+    "indigo": {
+      "label": "Indigo",
+      "seed": "#3e7c99",
+      "enabled": true
+    },
+    "gleep": {
+      "label": "Gleep",
+      "seed": "#3e9949",
+      "enabled": true
+    }
+  }
+}

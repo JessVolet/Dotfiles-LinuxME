@@ -1,0 +1,7 @@
+module plugins
+Registry 1.0 Registry.qml
+TopBar 1.0 TopBar.qml
+Dashboard 1.0 Dashboard.qml
+Launcher 1.0 Launcher.qml
+RiceManager 1.0 RiceManager.qml
+ControlCenter 1.0 ControlCenter.qml

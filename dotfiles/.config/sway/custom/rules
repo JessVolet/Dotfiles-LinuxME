@@ -1,0 +1,52 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Sway Custom Window Rules
+# Applied to specific applications and window properties
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ───────────────────────────────────────────────────────────────────────────────
+# Quickshell - Make config panel closeable and properly manageable
+# ───────────────────────────────────────────────────────────────────────────────
+
+# Allow escape key to close focused floating windows (generic solution)
+bindsym Escape [floating] kill
+
+# For any quickshell windows that appear - ensure they respond to close
+for_window [app_id="org.quickshell"] {
+    floating enable
+    mark quickshell_window
+}
+
+# For dialog windows that might be from quickshell/rice-manager
+for_window [title="RICE MANAGER"] {
+    floating enable
+    sticky enable
+}
+
+# ───────────────────────────────────────────────────────────────────────────────
+# File Manager / Utility Windows
+# ───────────────────────────────────────────────────────────────────────────────
+
+#for_window [app_id="org.xfce.Thunar"] floating enable
+#for_window [app_id="thunar"] floating enable
+
+# ───────────────────────────────────────────────────────────────────────────────
+# Dialogs and Popups
+# ───────────────────────────────────────────────────────────────────────────────
+
+for_window [window_role="dialog"] floating enable
+for_window [window_type="dialog"] floating enable
+for_window [window_type="utility"] floating enable
+for_window [window_type="splash"] floating enable
+
+# ───────────────────────────────────────────────────────────────────────────────
+# PavuControl and Audio Tools
+# ───────────────────────────────────────────────────────────────────────────────
+
+for_window [app_id="pavucontrol"] floating enable
+
+# ───────────────────────────────────────────────────────────────────────────────
+# Image Viewers / Media
+# ───────────────────────────────────────────────────────────────────────────────
+
+for_window [app_id="feh"] floating enable
+for_window [app_id="sxiv"] floating enable

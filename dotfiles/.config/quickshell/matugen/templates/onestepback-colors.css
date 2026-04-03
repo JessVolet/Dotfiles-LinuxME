@@ -1,0 +1,94 @@
+/*
+ * OneStepBack GTK Colors Theme
+ * NeXTSTEP-inspired minimalist theme with three shades of gray and one accent color
+ * Generated with Matugen
+ * 
+ * OneStepBack - A Gtk 2, 3 and 4 theme inspired by NeXTSTEP
+ * Author: Jean-Pierre Bucciol
+ * License: GPL 3
+ * Website: http://www.vide.memoire.free.fr/perso/OneStepBack/onestepback.php
+ */
+
+/* Primary Colors - Dynamic tones from Matugen */
+@define-color white_color #ffffff;
+@define-color lighter_color {{colors.surface_bright.default.hex}};
+@define-color base_color {{colors.surface_container.default.hex}};
+@define-color darker_color {{colors.surface_dim.default.hex}};
+@define-color black_color #000000;
+@define-color scale_color {{colors.primary.default.hex}};
+
+/* Button and Selection Colors */
+@define-color button_selected_bg_color {{colors.secondary.default.hex}};
+@define-color text_selected_bg_color {{colors.secondary.default.hex}};
+@define-color text_selected_fg_color #ffffff;
+@define-color menuitem_selected_bg_color {{colors.secondary_container.default.hex}};
+@define-color menuitem_selected_fg_color {{colors.on_secondary_container.default.hex}};
+@define-color listitem_selected_bg_color {{colors.secondary.default.hex}};
+@define-color listitem_selected_fg_color #ffffff;
+@define-color text_view_bg {{colors.surface_container_lowest.default.hex}};
+@define-color headerbar_bg_color {{colors.surface_container_low.default.hex}};
+
+/* GTK Color Scheme Mapping */
+/* Window and View Colors */
+@define-color window_bg_color {{colors.surface_container_low.default.hex}};
+@define-color window_fg_color @black_color;
+@define-color view_bg_color {{colors.surface_container_highest.default.hex}};
+@define-color view_fg_color @black_color;
+
+/* Header Bar */
+@define-color headerbar_bg_color {{colors.surface_container_low.default.hex}};
+@define-color headerbar_fg_color @black_color;
+@define-color headerbar_backdrop_color @base_color;
+
+/* Sidebar */
+@define-color sidebar_bg_color {{colors.surface_container_low.default.hex}};
+@define-color sidebar_fg_color @black_color;
+@define-color sidebar_backdrop_color {{colors.surface_container_low.default.hex}};
+
+/* Cards and Containers */
+@define-color card_bg_color {{colors.surface_container_highest.default.hex}};
+@define-color card_fg_color @black_color;
+@define-color surface_container {{colors.surface_container.default.hex}};
+@define-color surface {{colors.surface_bright.default.hex}};
+
+/* Dialog and Popover */
+@define-color dialog_bg_color {{colors.surface_container_low.default.hex}};
+@define-color dialog_fg_color @black_color;
+@define-color popover_bg_color {{colors.surface_container_low.default.hex}};
+@define-color popover_fg_color @black_color;
+
+/* Accent Colors */
+@define-color accent_bg_color {{colors.primary.default.hex}};
+@define-color accent_fg_color @white_color;
+@define-color primary_color {{colors.primary.default.hex}};
+@define-color secondary_bg_color {{colors.secondary.default.hex}};
+
+/* Error/Destructive Actions */
+@define-color destructive_bg_color {{colors.error.default.hex}};
+@define-color destructive_fg_color @white_color;
+@define-color error_bg_color {{colors.error.default.hex}};
+@define-color error_fg_color @white_color;
+
+/* Button and Control States */
+@define-color button_normal_bg {{colors.surface_container.default.hex}};
+@define-color button_normal_fg @black_color;
+@define-color button_hover_bg {{colors.primary_container.default.hex}};
+@define-color button_hover_fg @black_color;
+@define-color button_active_bg {{colors.primary.default.hex}};
+@define-color button_active_fg @white_color;
+@define-color button_disabled_bg {{colors.surface_dim.default.hex}};
+@define-color button_disabled_fg {{colors.on_surface_variant.default.hex}};
+
+/* Unfocused/Backdrop States */
+@define-color theme_unfocused_fg_color @black_color;
+@define-color theme_unfocused_bg_color {{colors.surface_container_low.default.hex}};
+@define-color theme_unfocused_text_color @black_color;
+@define-color theme_unfocused_base_color @base_color;
+@define-color theme_unfocused_selected_bg_color @base_color;
+@define-color theme_unfocused_selected_fg_color @white_color;
+
+/* Additional Colors for GTK Compatibility */
+@define-color borders {{colors.outline.default.hex}};
+@define-color warning_color {{colors.error.default.hex}};
+@define-color success_color {{colors.tertiary.default.hex}};
+@define-color info_color @scale_color;

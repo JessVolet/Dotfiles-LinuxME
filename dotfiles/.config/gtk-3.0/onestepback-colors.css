@@ -1,0 +1,94 @@
+/*
+ * OneStepBack GTK Colors Theme
+ * NeXTSTEP-inspired minimalist theme with three shades of gray and one accent color
+ * Generated with Matugen
+ * 
+ * OneStepBack - A Gtk 2, 3 and 4 theme inspired by NeXTSTEP
+ * Author: Jean-Pierre Bucciol
+ * License: GPL 3
+ * Website: http://www.vide.memoire.free.fr/perso/OneStepBack/onestepback.php
+ */
+
+/* Primary Colors - Dynamic tones from Matugen */
+@define-color white_color #ffffff;
+@define-color lighter_color #fff7f9;
+@define-color base_color #f7eaf0;
+@define-color darker_color #e3d7dd;
+@define-color black_color #000000;
+@define-color scale_color #814c77;
+
+/* Button and Selection Colors */
+@define-color button_selected_bg_color #6e5868;
+@define-color text_selected_bg_color #6e5868;
+@define-color text_selected_fg_color #ffffff;
+@define-color menuitem_selected_bg_color #f8daee;
+@define-color menuitem_selected_fg_color #271624;
+@define-color listitem_selected_bg_color #6e5868;
+@define-color listitem_selected_fg_color #ffffff;
+@define-color text_view_bg #ffffff;
+@define-color headerbar_bg_color #fdf0f6;
+
+/* GTK Color Scheme Mapping */
+/* Window and View Colors */
+@define-color window_bg_color #fdf0f6;
+@define-color window_fg_color @black_color;
+@define-color view_bg_color #ecdfe5;
+@define-color view_fg_color @black_color;
+
+/* Header Bar */
+@define-color headerbar_bg_color #fdf0f6;
+@define-color headerbar_fg_color @black_color;
+@define-color headerbar_backdrop_color @base_color;
+
+/* Sidebar */
+@define-color sidebar_bg_color #fdf0f6;
+@define-color sidebar_fg_color @black_color;
+@define-color sidebar_backdrop_color #fdf0f6;
+
+/* Cards and Containers */
+@define-color card_bg_color #ecdfe5;
+@define-color card_fg_color @black_color;
+@define-color surface_container #f7eaf0;
+@define-color surface #fff7f9;
+
+/* Dialog and Popover */
+@define-color dialog_bg_color #fdf0f6;
+@define-color dialog_fg_color @black_color;
+@define-color popover_bg_color #fdf0f6;
+@define-color popover_fg_color @black_color;
+
+/* Accent Colors */
+@define-color accent_bg_color #814c77;
+@define-color accent_fg_color @white_color;
+@define-color primary_color #814c77;
+@define-color secondary_bg_color #6e5868;
+
+/* Error/Destructive Actions */
+@define-color destructive_bg_color #ba1a1a;
+@define-color destructive_fg_color @white_color;
+@define-color error_bg_color #ba1a1a;
+@define-color error_fg_color @white_color;
+
+/* Button and Control States */
+@define-color button_normal_bg #f7eaf0;
+@define-color button_normal_fg @black_color;
+@define-color button_hover_bg #ffd7f3;
+@define-color button_hover_fg @black_color;
+@define-color button_active_bg #814c77;
+@define-color button_active_fg @white_color;
+@define-color button_disabled_bg #e3d7dd;
+@define-color button_disabled_fg #4e444b;
+
+/* Unfocused/Backdrop States */
+@define-color theme_unfocused_fg_color @black_color;
+@define-color theme_unfocused_bg_color #fdf0f6;
+@define-color theme_unfocused_text_color @black_color;
+@define-color theme_unfocused_base_color @base_color;
+@define-color theme_unfocused_selected_bg_color @base_color;
+@define-color theme_unfocused_selected_fg_color @white_color;
+
+/* Additional Colors for GTK Compatibility */
+@define-color borders #80747b;
+@define-color warning_color #ba1a1a;
+@define-color success_color #815343;
+@define-color info_color @scale_color;

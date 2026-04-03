@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "active": {
+    "theme": "cherry",
+    "mode": "light",
+    "palette": "matugen-default"
+  },
+  "wallpaper": {
+    "type": "theme",
+    "value": "cherry"
+  },
+  "targets": {
+    "quickshell": {
+      "enabled": true
+    },
+    "ghostty": {
+      "enabled": true
+    },
+    "sway": {
+      "enabled": true
+    },
+    "environment": {
+      "enabled": true
+    }
+  },
+  "themes": {
+    "retro-gruv-light": {
+      "label": "Gruvbox Light",
+      "seed": "#076678",
+      "enabled": true,
+      "palette": "matugen-default",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    },
+    "retro-gruv-dark": {
+      "label": "Gruvbox Dark",
+      "seed": "#83a598",
+      "enabled": true,
+      "palette": "matugen-default",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    },
+    "cyber-neon": {
+      "label": "Cyber Neon",
+      "seed": "#00ff41",
+      "enabled": true,
+      "palette": "retro-contrast",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    },
+    "yorha": {
+      "label": "YoRHa",
+      "seed": "#626335",
+      "enabled": true,
+      "palette": "matugen-default",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    },
+    "cherry": {
+      "label": "Cherry",
+      "seed": "#c950bb",
+      "enabled": true,
+      "palette": "matugen-default",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    },
+    "indigo": {
+      "label": "Indigo",
+      "seed": "#3e7c99",
+      "enabled": true,
+      "palette": "matugen-default",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    },
+    "gleep": {
+      "label": "Gleep",
+      "seed": "#3e9949",
+      "enabled": true,
+      "palette": "matugen-default",
+      "affects": [
+        "quickshell",
+        "ghostty",
+        "sway",
+        "environment"
+      ]
+    }
+  }
+}

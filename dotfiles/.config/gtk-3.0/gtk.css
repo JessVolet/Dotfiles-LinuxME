@@ -1,0 +1,79 @@
+/* GTK3 Main Configuration */
+/* Imports dynamic OneStepBack colors from matugen */
+
+@import url("onestepback-colors.css");
+
+/* GTK3 Theming */
+* {
+    -gtk-icon-style: regular;
+}
+
+/* Default GTK3 styles with imported colors */
+window {
+    background-color: @lighter_color;
+    color: @black_color;
+}
+
+button {
+    background-color: @button_normal_bg;
+    color: @button_normal_fg;
+    padding: 4px 8px;
+    border: 1px solid @outset_darker_color;
+}
+
+button:hover {
+    background-color: @button_hover_bg;
+    color: @button_hover_fg;
+}
+
+button:active, button:checked {
+    background-color: @button_active_bg;
+    color: @button_active_fg;
+}
+
+button:disabled {
+    background-color: @button_disabled_bg;
+    color: @button_disabled_fg;
+    opacity: 0.6;
+}
+
+headerbar, .titlebar {
+    background-color: @headerbar_bg_color;
+    color: @white_color;
+}
+
+entry {
+    background-color: @lighter_color;
+    color: @black_color;
+    border: 1px solid @base_color;
+}
+
+entry:focus {
+    border: 2px solid @accent_bg_color;
+}
+
+selection {
+    background-color: @text_selected_bg_color;
+    color: @text_selected_fg_color;
+}
+
+menu, .context-menu {
+    background-color: @lighter_color;
+    color: @black_color;
+}
+
+menuitem:hover {
+    background-color: @menuitem_selected_bg_color;
+    color: @menuitem_selected_fg_color;
+}
+
+/* Overrides for dialogs to ensure matugen colors */
+messagedialog, dialog, .dialog-vbox, .dialog-action-area {
+    background-color: @window_bg_color;
+    color: @window_fg_color;
+}
+
+/* Ensure the main container of message dialogs also uses the color */
+messagedialog > box {
+    background-color: @window_bg_color;
+}

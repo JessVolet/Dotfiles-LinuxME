@@ -1,0 +1,46 @@
+# Core stack
+swayfx
+quickshell
+swaybg
+rofi-wayland
+mako
+xfce-polkit
+
+# Session integration
+NetworkManager
+nm-applet
+gvfs
+gvfs-mtp
+udisks2
+
+# Audio
+pipewire
+wireplumber
+pipewire-pulse
+pamixer
+pavucontrol
+
+# Bluetooth
+bluez
+blueman-applet
+
+# File manager and utils
+thunar
+tumbler
+brightnessctl
+grim
+slurp
+swayimg
+mpv
+zathura
+
+# Terminal and tools
+ghostty
+zsh
+yazi
+cargo
+
+# Fonts
+jetbrains-mono-fonts
+fontawesome-fonts
+google-noto-sans-fonts

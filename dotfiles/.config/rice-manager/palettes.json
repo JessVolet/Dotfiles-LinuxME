@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "palettes": {
+    "matugen-default": {
+      "label": "Matugen Default",
+      "description": "Default mapping from Matugen colors to Quickshell theme variables.",
+      "mapping": {
+        "base": "colors.surface",
+        "highlight": "colors.surface_container_high",
+        "bgDesktop": "colors.background",
+        "shadow": "colors.outline_variant",
+        "textDim": "colors.on_surface_variant",
+        "text": "colors.on_background",
+        "outline": "colors.outline",
+        "accent": "colors.primary",
+        "urgent": "colors.error",
+        "success": "colors.secondary",
+        "panelBg": "colors.surface_container",
+        "insetBg": "colors.surface_container_high",
+        "headerBg": "colors.primary_container",
+        "sideTabBg": "colors.secondary_container",
+        "bevelLight": "colors.surface",
+        "bevelDark": "colors.outline_variant",
+        "buttonBg": "colors.surface_variant",
+        "buttonAct": "colors.error_container"
+      },
+      "overrides": {}
+    },
+    "retro-contrast": {
+      "label": "Retro Contrast",
+      "description": "Higher contrast palette for readability.",
+      "mapping": {
+        "base": "colors.surface",
+        "highlight": "colors.surface_container_high",
+        "bgDesktop": "colors.background",
+        "shadow": "colors.shadow",
+        "textDim": "colors.on_surface_variant",
+        "text": "colors.on_background",
+        "outline": "colors.outline",
+        "accent": "colors.primary",
+        "urgent": "colors.error",
+        "success": "colors.secondary",
+        "panelBg": "colors.surface_container",
+        "insetBg": "colors.surface_variant",
+        "headerBg": "colors.primary",
+        "sideTabBg": "colors.secondary",
+        "bevelLight": "colors.surface",
+        "bevelDark": "colors.outline",
+        "buttonBg": "colors.surface_variant",
+        "buttonAct": "colors.error"
+      },
+      "overrides": {
+        "text": "#ffffff"
+      }
+    }
+  }
+}
