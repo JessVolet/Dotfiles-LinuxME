@@ -15,6 +15,7 @@ sudo dnf install -y \
 sudo dnf copr enable -y swayfx/swayfx
 sudo dnf copr enable -y errornointernet/quickshell
 sudo dnf copr enable -y lihaohong/yazi
+sudo dnf copr enable -y scottames/ghostty
 
 mapfile -t packages < <(grep -Ev '^\s*#|^\s*$' "$PKG_FILE")
 sudo dnf install -y "${packages[@]}"
